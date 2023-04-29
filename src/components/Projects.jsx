@@ -25,7 +25,7 @@ const Projects = () => {
                   Twitter Clone using template engine, Express and MongoDB
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='https://our-tweet-app.herokuapp.com/'>
+                  <a href='https://twitter-clone-esh.onrender.com'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>
