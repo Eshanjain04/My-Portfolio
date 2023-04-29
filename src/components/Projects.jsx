@@ -49,7 +49,7 @@ const Projects = () => {
                   Student personal Attendance Tracker App using Express and MongoDB
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='https://attendance-tracker04.herokuapp.com/'>
+                  <a href='https://attendance-tracker04.netlify.app/'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>
