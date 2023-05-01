@@ -47,6 +47,14 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Mongo} alt="MongoDB icon" />
                   <p className='my-4'>MONGO DB</p>
               </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={python-logo} alt="MongoDB icon" />
+                  <p className='my-4'>PYTHON</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={falcon-python} alt="MongoDB icon" />
+                  <p className='my-4'>FALCON</p>
+              </div>
           </div>
       </div>
     </div>
