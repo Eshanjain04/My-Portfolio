@@ -7,6 +7,9 @@ import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Mongo from '../assets/mongo.png';
+import python from '../assets/python.png';
+import falcon from '../assets/falcon.svg';
+import angular from '../assets/angular-icon-1.svg';
 
 const Skills = () => {
   return (
@@ -54,6 +57,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={falcon} alt="MongoDB icon" />
                   <p className='my-4'>FALCON</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={angular} alt="MongoDB icon" />
+                  <p className='my-4'>ANGULAR</p>
               </div>
           </div>
       </div>
