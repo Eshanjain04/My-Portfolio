@@ -3,6 +3,7 @@ import Twitter from "../assets/Twitter.jpg"
 import Attendance from "../assets/Attendance.jpg";
 import cryptovault from "../assets/cryptovault.jpg";
 import contacts from "../assets/Contacts.jpg"
+import fileUpload from "../assets/file-upload-img.png"
 
 const Projects = () => {
   return (
@@ -103,6 +104,30 @@ const Projects = () => {
                     </button>
                   </a>
                   <a href='https://github.com/Eshanjain04/Contact-Manager'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:cursor-pointer'>
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* File Upload App */}
+            <div
+              style={{ backgroundImage: `url(${fileUpload})` }}
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            >
+              {/* Hover Effects */}
+              <div className='opacity-0 group-hover:opacity-100 p-4'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
+                  File Upload app which returns short Downloadable URL
+                </span>
+                <div className='pt-8 text-center'>
+                  <a href='https://esh-file-uploader.netlify.app'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:cursor-pointer'>
+                      Demo
+                    </button>
+                  </a>
+                  <a href='https://github.com/Eshanjain04/File-upload-app'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:cursor-pointer'>
                       Code
                     </button>
