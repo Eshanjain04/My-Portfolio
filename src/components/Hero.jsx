@@ -11,10 +11,10 @@ const Hero = () => {
           Eshan Jain
         </h1>
         <h2 className='text-4xl sm:text-5xl font-bold text-[#8892b0]'>
-          I'm a Full Stack Developer enthusiast.
+          I'm a Full Stack Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a full-stack developer enthusiasts keen to build exceptional digital experiences. Currently, I’m working in Fintech company contributing in developing products based on client requirements with the technologies involving Angular, python and Falcon.
+          I’m a full-stack developer keen to build exceptional digital experiences. Currently, I’m working in Fintech company contributing in developing products based on client requirements with the technologies involving Django,Angular, and Falcon.
           I have also developed some end to end perosnal projects which you can see by click the button down below.
         </p>
         <div>

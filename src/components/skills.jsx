@@ -10,7 +10,7 @@ import Mongo from '../assets/mongo.png';
 import python from '../assets/python.png';
 import falcon from '../assets/falcon.svg';
 import angular from '../assets/angular-icon-1.svg';
-
+import django from '../assets/django.png'
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
@@ -22,6 +22,14 @@ const Skills = () => {
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 pb-20'>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-40 mx-auto' src={django} alt="Django icon" />
+                  <p className='my-4'>DJANGO</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={angular} alt="MongoDB icon" />
+                  <p className='my-4'>ANGULAR</p>
+              </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                   <p className='my-4'>HTML</p>
@@ -57,10 +65,6 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={falcon} alt="MongoDB icon" />
                   <p className='my-4'>FALCON</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={angular} alt="MongoDB icon" />
-                  <p className='my-4'>ANGULAR</p>
               </div>
           </div>
       </div>

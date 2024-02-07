@@ -21,7 +21,7 @@ const About = () => {
               the lives of those around me. I am very excited to create scaleable softwares
               for clients ranging from individuals and small-businesses all the
               way to large enterprise corporations. I have been working on several projects of my own but before this
-              I was working as SAP Automation Analyst in Cognizant technology.</p>  
+              I am currently working in a Fintech Startup as a Full stack Developer comprising of Django and Angular as Tech Stack.</p>  
             </div>
           </div>
       </div>
